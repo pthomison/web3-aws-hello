@@ -1,7 +1,7 @@
 const Web3 = require('web3');
 const AWSHttpProvider = require('@aws/web3-http-provider');
 
-ENDPOINT = "https://nd-bwruezapmrayxnzb2jogcqn2ei.ethereum.managedblockchain.us-east-1.amazonaws.com"
+ENDPOINT = "https://xxxxxxxxxxxxx.ethereum.managedblockchain.us-east-1.amazonaws.com"
 
 // var web3 = new Web3('http://127.0.0.1:8545')	
 var web3 = new Web3(new AWSHttpProvider(ENDPOINT))
